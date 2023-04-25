@@ -8,6 +8,11 @@ import { FaYoutube } from 'react-icons/fa';
 
 
 function Home() {
+
+    useEffect(() => {
+        document.title = 'AntonioPedroDev';
+      }, []);
+
     const [borderColor, setBorderColor] = useState("border-red-500"); // Comece com a cor vermelha
     const colors = [
         "border-blue-500",
