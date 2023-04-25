@@ -11,7 +11,7 @@ function Home() {
 
     useEffect(() => {
         document.title = 'AntonioPedroDev';
-      }, []);
+    }, []);
 
     const [borderColor, setBorderColor] = useState("border-red-500"); // Comece com a cor vermelha
     const colors = [
@@ -38,9 +38,9 @@ function Home() {
         <body className="flex flex-col justify-center items-center">
             <div className="flex flex-col items-center justify-center m-4">
                 <img className={`rounded-full w-28 h-28 border-4 ${borderColor} transition duration-500`} src="./imgs/perfildev.jpeg" />
-                <h3 className=" text-center font-semibold">Antônio Pedro</h3>
-                <p className="text-center">Desenvolvedor de software, cursando Sistemas para Internet no IFPE <br /> aqui estão alguns dos meus projetos, todos estão no meu <a href="https://github.com/Antoniop87" className="text-blue-500">github</a></p>
             </div>
+            <h3 className=" text-center font-semibold">Antônio Pedro</h3>
+            <p className="text-center">Desenvolvedor de software, cursando Sistemas para Internet no IFPE <br /> aqui estão alguns dos meus projetos, todos estão no meu <a href="https://github.com/Antoniop87" className="text-blue-500">github</a></p>
             <div className="sm:flex">
                 <Projects
                     className=""
