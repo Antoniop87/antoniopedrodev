@@ -10,12 +10,12 @@ const Projects = (props) => {
             <div className="botao flex justify-center items-center">
                 <div className="m-2">
                     <a href={props.href}>
-                        <button className="text-center bg-green-400 w-16 h-10 text-white font-semibold rounded">{props.button}</button>
+                        <button className="text-center bg-green-400 hover:bg-green-500 w-16 h-10 text-white font-semibold rounded">{props.button}</button>
                     </a>
                 </div>
                 <div>
                     <a href={props.href1}>
-                        <button className="teste text-center bg-green-400 w-16 h-10 text-white font-semibold rounded">{props.teste}</button>
+                        <button className="teste text-center bg-green-400 hover:bg-green-500 w-16 h-10 text-white font-semibold rounded">{props.teste}</button>
                     </a>
                 </div>
             </div>

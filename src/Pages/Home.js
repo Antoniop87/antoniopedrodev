@@ -39,25 +39,25 @@ function Home() {
             <div className="flex flex-col items-center justify-center m-4">
                 <img className={`rounded-full w-28 h-28 border-4 ${borderColor} transition duration-500`} src="./imgs/perfildev.jpeg" />
             </div>
-            <h3 className=" text-center font-semibold">Antônio Pedro</h3>
-            <p className="text-center">Desenvolvedor de software, cursando Sistemas para Internet no IFPE <br /> aqui estão alguns dos meus projetos, todos estão no meu <a href="https://github.com/Antoniop87" className="text-blue-500">github</a></p>
+            <h3 className=" text-center font-semibold text-md sm:text-xl">Antônio Pedro</h3>
+            <p className="text-center text-xs sm:text-base">Desenvolvedor de software, cursando Sistemas para Internet no IFPE <br /> aqui estão alguns dos meus projetos, todos estão no meu <a href="https://github.com/Antoniop87" className="text-blue-500 hover:text-blue-700">github</a></p>
             <div className="sm:flex">
                 <Projects
                     className=""
                     h1={"HB Running"}
                     p={"Projeto que serviu como estudos. Criei um site para uma assessoria de corrida"}
-                    href={"https://hbrunning.vercel.app/"}
+                    href={"https://hbrunning-six.vercel.app/"}
                     button={"Site"}
                     href1={"https://github.com/Antoniop87/HB-Running"}
                     teste={"Source"}
                 />
                 <Projects
                     className=""
-                    h1={"Orgs"}
-                    p={"Aplicativo Android que salva produtos tanto no cache do dispositivo, tanto em uma api"}
+                    h1={"Ceep"}
+                    p={"Aplicativo Android que salva notas tanto no cache do dispositivo, tanto em uma api"}
                     href={"/download"}
                     button={"APK"}
-                    href1={"https://github.com/Antoniop87/AppOrgs"}
+                    href1={"https://github.com/Antoniop87/App_consumindo_api"}
                     teste={"Source"}
                 />
             </div>
@@ -124,7 +124,8 @@ function Home() {
                 </button>
             </div>
             <div>
-                <h3 className="mb-4 font-semibold" >Este portifolio foi feito usando React e TailwindCSS</h3>
+                <h3 className="mb-4 font-semibold text-center text-sm sm:text-base" >Este portfolio foi feito usando React e TailwindCSS</h3>
+                <p className="font-semibold text-center">© Antônio Pedro</p>
             </div>
         </body>
 
