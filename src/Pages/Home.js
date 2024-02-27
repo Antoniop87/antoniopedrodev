@@ -75,7 +75,7 @@ function Home() {
                     className=""
                     h1={"SocketChat"}
                     p={"Aplicativo de chat em tempo real que fiz usando socket e Java"}
-                    href={"/download"}
+                    href={"./arquivos/app-debug.apk"}
                     button={"APK"}
                     href1={"https://github.com/Antoniop87/SocketChat"}
                     teste={"Source"}

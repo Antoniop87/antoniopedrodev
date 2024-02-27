@@ -9,7 +9,7 @@ const Projects = (props) => {
             </div>
             <div className="botao flex justify-center items-center">
                 <div className="m-2">
-                    <a href={props.href}>
+                    <a href={props.href} download>
                         <button className="text-center bg-green-400 hover:bg-green-500 w-16 h-10 text-white font-semibold rounded">{props.button}</button>
                     </a>
                 </div>
