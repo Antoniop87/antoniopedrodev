@@ -40,8 +40,17 @@ function Home() {
                 <img className={`rounded-full w-28 h-28 border-4 ${borderColor} transition duration-500`} src="./imgs/perfildev.jpeg" />
             </div>
             <h3 className=" text-center font-semibold text-md sm:text-xl">Antônio Pedro</h3>
-            <p className="text-center text-xs sm:text-base">Desenvolvedor de software, cursando Sistemas para Internet no IFPE <br /> aqui estão alguns dos meus projetos, todos estão no meu <a href="https://github.com/Antoniop87" className="text-blue-500 hover:text-blue-700">github</a></p>
+            <p className="text-center text-xs sm:text-base">Desenvolvedor Android Java/Kotlin <br /> aqui estão alguns dos meus projetos, todos estão no meu <a href="https://github.com/Antoniop87" className="text-blue-500 hover:text-blue-700">github</a></p>
             <div className="sm:flex">
+            <Projects
+                    className=""
+                    h1={"NEAPlayKids"}
+                    p={"Projeto focado em educação infantil. Esse projeto foi usado como o meu TCC na faculdade"}
+                    href={"./arquivos/neaplaykids.apk"}
+                    button={"APK"}
+                    href1={"https://github.com/Antoniop87/Nick"}
+                    teste={"Source"}
+                />
                 <Projects
                     className=""
                     h1={"HB Running"}
@@ -51,7 +60,10 @@ function Home() {
                     href1={"https://github.com/Antoniop87/HB-Running"}
                     teste={"Source"}
                 />
-                <Projects
+              
+            </div>
+            <div className="sm:flex">
+            <Projects
                     className=""
                     h1={"Ceep"}
                     p={"Aplicativo Android que salva notas tanto no cache do dispositivo, tanto em uma api"}
@@ -60,8 +72,6 @@ function Home() {
                     href1={"https://github.com/Antoniop87/App_consumindo_api"}
                     teste={"Source"}
                 />
-            </div>
-            <div className="sm:flex">
                 <Projects
                     className=""
                     h1={"Pokedex"}
@@ -71,24 +81,15 @@ function Home() {
                     href1={"https://github.com/Antoniop87/PokedexApp"}
                     teste={"Source"}
                 />
-                <Projects
+            </div>
+            <div className="sm:flex">
+            <Projects
                     className=""
                     h1={"SocketChat"}
                     p={"Aplicativo de chat em tempo real que fiz usando socket e Java"}
                     href={"./arquivos/app-debug.apk"}
                     button={"APK"}
                     href1={"https://github.com/Antoniop87/SocketChat"}
-                    teste={"Source"}
-                />
-            </div>
-            <div className="sm:flex">
-                <Projects
-                    className=""
-                    h1={"NickNock"}
-                    p={"Esse projeto foi uma tentativa de criar uma rede social, fiz usando Kotlin e realtimeDB do Firebase."}
-                    href={"/download"}
-                    button={"APK"}
-                    href1={"https://github.com/Antoniop87/NickNock"}
                     teste={"Source"}
                 />
                 <Projects
@@ -102,23 +103,23 @@ function Home() {
                 />
             </div>
             <div>
-                <button className=" text-gray-500 hover:text-green-400">
+                <button className=" text-gray-500 hover:text-green-400"  target="_blank">
                     <a href="https://wa.me/5581995362804">
                         <FaWhatsapp size={30} />
                     </a>
                 </button>
-                <button className="text-gray-500 hover:text-purple-500">
+                <button className="text-gray-500 hover:text-purple-500"  target="_blank">
                     <a href="https://www.instagram.com/pedroo.kt/">
                         <FaInstagram size={30} />
                     </a>
                 </button>
                 <button className="text-gray-500 hover:text-blue-500">
-                    <a href="https://www.linkedin.com/in/ant%C3%B4nio-pedro-067820244/">
+                    <a href="https://www.linkedin.com/in/ant%C3%B4nio-pedro-067820244/"  target="_blank">
                         <FaLinkedin size={30} />
                     </a>
                 </button>
                 <button className="text-gray-500 hover:text-red-500">
-                    <a href="https://www.youtube.com/channel/UCgPo-kf6bA4zkiTeF7VKIAQ">
+                    <a href="https://www.youtube.com/channel/UCgPo-kf6bA4zkiTeF7VKIAQ"  target="_blank">
                         <FaYoutube size={30} />
                     </a>
                 </button>
